@@ -17,8 +17,13 @@ body{
     overflow-x: hidden;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: whitesmoke;
 }
 
 .clip-diagonal{
     clip-path: polygon(0% 0% ,100% 0%,100% 80%,0% 100%);
+}
+
+.scroll-width::-webkit-scrollbar {
+    width: 10px;
 }

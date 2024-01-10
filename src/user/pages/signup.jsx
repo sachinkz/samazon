@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Button from '../../components/shared/Button'
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
+import { Link } from 'react-router-dom';
 
 const SignUp = () => {
 
@@ -37,6 +38,7 @@ const SignUp = () => {
 
                 </div>
                 <Button btnType="Signup" />
+                <p>already a user? <Link to={'/login'}> <span>login here</span></Link></p>
             </form>
         </div>
     )
