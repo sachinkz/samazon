@@ -230,3 +230,25 @@ export const  products=[
         ]
     },
 ]
+
+
+export const cartData = [
+    {
+      id: 1,
+      item: "I Phone 15 pro",
+      price: 150000,
+      quantity: 1
+    },
+    {
+      id: 2,
+      item: "I Phone 14 pro",
+      price: 150000,
+      quantity: 1
+    },
+    {
+      id: 3,
+      item: "I Phone 13 pro",
+      price: 150000,
+      quantity: 1
+    },
+  ]
